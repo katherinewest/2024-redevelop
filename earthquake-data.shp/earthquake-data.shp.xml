@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>AGS Earthquake Data</title>
+        <origin>Alberta Energy Regulator</origin>
+        <origin>Alberta Geological Survey</origin>
+        <origin>Stern, V.H.</origin>
+        <origin>Shen, L.</origin>
+        <origin>Gu, Y.J.</origin>
+        <origin>Eaton, D.W.</origin>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This GIS dataset depicts earthquakes within Alberta from September 2006 through 2017. The events were recorded on seismographs belonging to the Regional Alberta Observatory for Earthquake Studies Network (RAVEN), Canadian Rockies and Alberta Network (CRANE), the Canadian National Seismograph Network (CNSN), the Alberta Telemetered Seismograph Network (ATSN), the Montana Regional Seismograph Network (MRSN), the TransAlta Dam Monitoring Network (TD), the Northeast British Columbia Network (NEBC), and the American National Seismograph System (USRef). The locations were calculated using the Boulder Real Time Technologies Antelope collection of software for the acquisition, archival, and analysis of seismic waveforms with the hypocentre inversion algorithm GENLOC. The locations have been reviewed and are believed to represent actual seismic events. As more seismic data or information becomes available locations may be added, modified, or removed from future versions of this dataset</abstract>
+      <purpose>Provides GIS information to depict the location, date, and time of earthquakes in Alberta 1 Ml and above between 2006 and 2024.</purpose>
+    </descript>
+    <timeperd>
+      <rngdates>
+        <begdate>2006-09-24</begdate>
+        <enddate>2024-01-31</enddate>
+      </rngdates>
+    </timeperd>
+    <status>
+      <progress>Planned</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <westbc>-120.0951</westbc>
+      <eastbc>-111.055</eastbc>
+      <northbc>59.9538</northbc>
+      <southbc>48.7717</southbc>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Alberta</themekey>
+        <themekey>Canada</themekey>
+        <themekey>earthquake catalogue</themekey>
+        <themekey>seismic</themekey>
+        <themekey>Alberta Geological Survey</themekey>
+      </theme>
+    </keywords>
+    <accconst>NoneNone</accconst>
+  </idinfo>
+  <eainfo>
+    <detailed>
+      <attr>
+        <attrlabl>DT_UTC</attrlabl>
+        <attrdef>Origin time in Universal Coordinated Time</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DT_MT</attrlabl>
+        <attrdef>Origin time in Mountain Standard Time / Mountain Daylight Time</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LAT</attrlabl>
+        <attrdef>Geographical latitude in decimal degrees</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LON</attrlabl>
+        <attrdef>Geographical longitude in decimal degrees</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DEPTH</attrlabl>
+        <attrdef>Depth of earthquake in kilometers beneath the surface</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DTYPE</attrlabl>
+        <attrdef>Depth type; whether the earthquake depth was fixed (g) or free (f) in the calculation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MAG</attrlabl>
+        <attrdef>Magnitude of the earthquake</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MTYPE</attrlabl>
+        <attrdef>Magnitude type: local magnitude (ML) or moment magnitude (Mw)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ETYPE</attrlabl>
+        <attrdef>Earthquake type: known induced (ki), suspected induced (si) or suspected (naturally-occurring) earthquake (se).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>REF_ID</attrlabl>
+        <attrdef>Reference ID assigned to the incident report received by the Government of Alberta response centre (EDGE report)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+        <attrdef>Distance and direction of event from nearest city, town, or settlement</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ALGORITHM</attrlabl>
+        <attrdef>Algorithm used to calculate earthquake location: generalized earthquake-location (GENLOC) or the double-difference earthquake location (HYPODD) method.</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtstype>Entity point</sdtstype>
+      <ptvctcnt>5948</ptvctcnt>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.98315284119521e-09</latres>
+        <longres>8.98315284119521e-09</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorg>Alberta Geological Survey</cntorg>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
